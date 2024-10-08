@@ -1,0 +1,49 @@
+# Flutter/Dart specific
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec.lock
+
+# Android specific
+*.apk
+*.ap_
+*.dex
+*.class
+*.jar
+*.keystore
+*.jks
+build/
+
+# iOS specific
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Pods/
+ios/.generated/
+ios/Runner.xcworkspace/
+ios/Runner/GeneratedPluginRegistrant.h
+ios/Runner/GeneratedPluginRegistrant.m
+
+# macOS specific
+macos/Flutter/Flutter.framework
+macos/Flutter/Flutter.podspec
+macos/Pods/
+
+# Web specific
+web/.dart_tool/
+web/build/
+web/generated_plugin_registrant.dart
+
+# Miscellaneous
+*.log
+*.DS_Store
+*.idea/
+*.vscode/
+*.iml
+*.swp
+.cache/
+*.user
+*.sublime-project
+*.sublime-workspace
+
+# Coverage
+coverage/
